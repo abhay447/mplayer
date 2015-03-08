@@ -1,0 +1,15 @@
+import multiprocessing
+
+def worker():
+	p = multiprocessing.current_process()
+	for i in range(100):
+		print "hello"
+
+p = multiprocessing.Process(name='hola',target=worker)
+for i in range(3):	
+	a=input("jhola???")
+	if a==0:
+		p.start()
+	else :
+		p.terminate()
+		p.join()

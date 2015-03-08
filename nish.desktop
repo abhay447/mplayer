@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=nish
+Exec=sh -c /home/abhay/pygtkprojects/mplayer/nish.sh   
+Path=/home/abhay/pygtkprojects/mplayer/
+Terminal=false
+Type=Application
+Icon=/home/abhay/pygtkprojects/mplayer/nish.jpeg
